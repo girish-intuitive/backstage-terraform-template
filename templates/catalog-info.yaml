@@ -21,5 +21,5 @@ metadata:
 spec:
   type: internal
   lifecycle: production
-  owner: matt@doics.co
+  owner: ${{ values.owner }}
   definition: "${{ values.description }}"
